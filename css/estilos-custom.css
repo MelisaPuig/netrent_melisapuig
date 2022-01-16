@@ -39,23 +39,91 @@
       margin: 1rem;  
     }
     .btn-outline-primary{
-margin-left: 90%;
+      margin-left: 90%;
+    }
+    
+    /* footer */ 
+    
+    .container__titulo{
+      font-size: 85%;
+      text-align: center;
+    }
+    
+    #redes{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: auto auto;
+      text-align: center;
+      width: 100%;
+      max-width: 45rem;
     }
 
-/* footer */ 
+    /* nosotros */
+    .img-fluid {
+      max-width: 70%;
+      height: auto;
+      display: justify;
+      margin-left: 15%;
+  }
+    
+.texto_nosotros{
+  text-align: center;
+}
 
-   .container__titulo{
-       font-size: 85%;
-       text-align: center;
-   }
+    /* acción */
+    
 
- #redes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto auto;
-    text-align: center;
-    width: 100%;
-    max-width: 45rem;
- }
+ .w-100 {
+  width: 70%;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-around;
+}
+
+
+.cards_de_peliculas {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Aventuras */
+ /* .navbar {navbar-expand-lg navbar-light bg-black;
+
+}  */
+
+.container-fluid{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #fdf1fc;
+}
+
+.navbar-nav {
+  background-color: #7caffb ;
+
+  }
+  .nav-link{
+    background-color: #89b4f5 ; 
+  }
+  .navbar-brand{
+    background-color: violet;
+  }
+
+  
+.card-img, .card-img-bottom, .card-img-top {
+  width: 50%;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 25%;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 120%;
+}
